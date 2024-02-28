@@ -51,7 +51,9 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField1.setForeground(new java.awt.Color(241, 239, 247));
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField1.setCaretColor(new java.awt.Color(239, 68, 242));
         jTextField1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        jTextField1.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jLabel2.setForeground(new java.awt.Color(241, 239, 247));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -61,6 +63,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField2.setForeground(new java.awt.Color(241, 239, 247));
         jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField2.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField2.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jLabel3.setForeground(new java.awt.Color(241, 239, 247));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -70,6 +74,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField3.setForeground(new java.awt.Color(241, 239, 247));
         jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField3.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField3.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jLabel4.setForeground(new java.awt.Color(241, 239, 247));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -79,6 +85,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField4.setForeground(new java.awt.Color(241, 239, 247));
         jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField4.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField4.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jLabel5.setForeground(new java.awt.Color(241, 239, 247));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -88,6 +96,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField5.setForeground(new java.awt.Color(241, 239, 247));
         jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField5.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField5.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jLabel6.setForeground(new java.awt.Color(241, 239, 247));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -97,6 +107,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField6.setForeground(new java.awt.Color(241, 239, 247));
         jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField6.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField6.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jLabel7.setForeground(new java.awt.Color(241, 239, 247));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -106,6 +118,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField7.setForeground(new java.awt.Color(241, 239, 247));
         jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField7.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField7.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jButton1.setBackground(new java.awt.Color(239, 68, 242));
         jButton1.setForeground(new java.awt.Color(60, 58, 65));
@@ -129,6 +143,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField8.setForeground(new java.awt.Color(241, 239, 247));
         jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField8.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField8.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         jLabel10.setForeground(new java.awt.Color(241, 239, 247));
         jLabel10.setText("N° do Cartão");
@@ -137,6 +153,8 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
         jTextField9.setForeground(new java.awt.Color(241, 239, 247));
         jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
+        jTextField9.setCaretColor(new java.awt.Color(239, 68, 242));
+        jTextField9.setSelectionColor(new java.awt.Color(239, 68, 242));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
