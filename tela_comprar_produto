@@ -64,6 +64,7 @@ public class TelaCompraProdutos extends javax.swing.JFrame {
             }
         });
 
+        jSpinner1.setModel(new javax.swing.SpinnerNumberModel());
         jSpinner1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(239, 68, 242)));
 
         jLabel4.setForeground(new java.awt.Color(241, 239, 247));
