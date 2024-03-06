@@ -116,35 +116,35 @@ insert into Fornecedor (cnpj, nome, telefone, cep, uf, endereco, email, senha) v
 ('97.286.879/0001-11', 'TecnoMundo', '(31) 6178-4502', '57601-175', 'MG', 'Rua da Tecnologia, Belo Horizonte', 'contato@tecnomundo.com', '5579650662');
 
 
-insert into TipoProduto (id, nome) values
-(1, 'Notebook'),
-(2, 'Smartphone'),
-(3, 'Tablet'),
-(4, 'Headphone');
+insert into TipoProduto (nome) values
+('Notebook'),
+('Smartphone'),
+('Tablet'),
+('Headphone');
 
 
 insert into Produto (nome, descricao, valor, quantidade, TipoProduto) values
-('Samsung Galaxy Book S 3 Ultra', 'Notebook leve e potente para uso diário', 3500, 10, 'Notebook'),
-('MacBook Pro', 'Notebook premium com design elegante e performance excepcional', 8000, 10, 'Notebook'),
-('Dell Inspiron 15', 'Notebook versátil para uso doméstico e profissional', 4500, 10, 'Notebook'),
-('HP Pavilion x360', 'Notebook 2 em 1 que pode ser usado como tablet', 3800, 10, 'Notebook'),
-('Lenovo ThinkPad X1 Carbon', 'Notebook empresarial com excelente qualidade e desempenho', 6500, 10, 'Notebook'),
+('Samsung Galaxy Book S 3 Ultra', 'Notebook leve e potente para uso diário', 3500, 10, 1),
+('MacBook Pro', 'Notebook premium com design elegante e performance excepcional', 8000, 10, 1),
+('Dell Inspiron 15', 'Notebook versátil para uso doméstico e profissional', 4500, 10, 1),
+('HP Pavilion x360', 'Notebook 2 em 1 que pode ser usado como tablet', 3800, 10, 1),
+('Lenovo ThinkPad X1 Carbon', 'Notebook empresarial com excelente qualidade e desempenho', 6500, 10, 1),
 
-('Samsung Galaxy S21 Ultra', 'Smartphone premium com câmera de alta resolução', 5000, 10, 'Smartphone'),
-('iPhone 13 Pro Max', 'Smartphone topo de linha com design elegante', 7000, 10, 'Smartphone'),
-('LG Wing', 'Smartphone com tela giratória inovadora', 3800, 10, 'Smartphone'),
-('Nokia X20', 'Smartphone intermediário com atualizações de software garantidas', 2300, 10, 'Smartphone'),
-('Xiaomi Mi 11', 'Smartphone com excelente desempenho e custo-benefício', 3500, 10, 'Smartphone'),
+('Samsung Galaxy S21 Ultra', 'Smartphone premium com câmera de alta resolução', 5000, 10, 2),
+('iPhone 13 Pro Max', 'Smartphone topo de linha com design elegante', 7000, 10, 2),
+('LG Wing', 'Smartphone com tela giratória inovadora', 3800, 10, 2),
+('Nokia X20', 'Smartphone intermediário com atualizações de software garantidas', 2300, 10, 2),
+('Xiaomi Mi 11', 'Smartphone com excelente desempenho e custo-benefício', 3500, 10, 2),
 
-('Samsung Galaxy Tab S7', 'Tablet premium com tela de alta resolução', 3500, 10, 'Tablet'),
-('iPad Air', 'Tablet intermediário com design fino e leve', 4000, 10, 'Tablet'),
-('Lenovo Tab P11 Pro', 'Tablet com tela OLED e desempenho sólido', 2500, 'Tablet'),
-('Huawei MatePad Pro 12.6', 'Tablet com excelente desempenho e qualidade de construção', 4200, 10, 'Tablet'),
-('Microsoft Surface Pro 7', 'Tablet 2 em 1 com desempenho de laptop', 6000, 10, 'Tablet'),
+('Samsung Galaxy Tab S7', 'Tablet premium com tela de alta resolução', 3500, 10, 3),
+('iPad Air', 'Tablet intermediário com design fino e leve', 4000, 10, 3),
+('Lenovo Tab P11 Pro', 'Tablet com tela OLED e desempenho sólido', 2500, 3),
+('Huawei MatePad Pro 12.6', 'Tablet com excelente desempenho e qualidade de construção', 4200, 10, 3),
+('Microsoft Surface Pro 7', 'Tablet 2 em 1 com desempenho de laptop', 6000, 10, 3),
 
-('AirPods Max', 'Headphone over-ear com áudio de alta fidelidade', 2500, 10, 'Headphone'),
-('Sony WH-1000XM4', 'Headphone com cancelamento de ruído e áudio de alta qualidade', 1800, 10, 'Headphone'),
-('Bose QuietComfort 35 II', 'Headphone com cancelamento de ruído e conforto', 1500, 10, 'Headphone'),
-('Sennheiser Momentum 3', 'Headphone premium com áudio detalhado e design elegante', 2200, 10, 'Headphone'),
-('JBL Quantum ONE', 'Headphone gamer com som surround e iluminação RGB', 1200, 10, 'Headphone');
+('AirPods Max', 'Headphone over-ear com áudio de alta fidelidade', 2500, 10, 4),
+('Sony WH-1000XM4', 'Headphone com cancelamento de ruído e áudio de alta qualidade', 1800, 10, 4),
+('Bose QuietComfort 35 II', 'Headphone com cancelamento de ruído e conforto', 1500, 10, 4),
+('Sennheiser Momentum 3', 'Headphone premium com áudio detalhado e design elegante', 2200, 10, 4),
+('JBL Quantum ONE', 'Headphone gamer com som surround e iluminação RGB', 1200, 10, 4);
 
